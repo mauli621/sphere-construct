@@ -1,0 +1,275 @@
+*{
+   margin: 0;  
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   width: 100%;
+   background-color: black;
+}
+
+.navbar .nav-logo{
+   background-color: yellow;
+   color: black;
+   height: 100px;
+   width: 300px;
+   padding: 22px;
+   font-size: 24px;
+}
+
+.navbar .nav-menu{
+   background-color: black;
+   color: white;
+}
+
+.nav-menu ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+   margin-right: 42px;
+}
+
+.nav-menu ul li{
+   margin-left: 42px;
+   font-size: 20px;
+}
+
+.nav-menu ul li:hover{
+   color: yellow;
+   cursor: pointer;
+}
+
+main video{
+   width: 100%;
+}
+
+.video-container{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.video-container video{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.headings{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: white;
+   text-align: center;
+   font-size: 30px;
+}
+
+section .service{
+   font-size: 49px;
+   padding: 30px;
+   margin-left: 40%;
+   border-bottom : 8px solid yellow;
+   width: 350px;
+   margin-bottom: 20px;
+}
+
+section .services{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 25px;
+}
+
+section .services .section{
+   height: 550px;
+   width: 350px;
+   margin-left: 35px;
+}
+
+section .services .section img{
+   height: 300px;
+   width: 350px;
+}
+
+section .services .section img:hover{
+   border: 2px solid yellow;
+}
+
+section .services .section .design{
+   text-align: center;
+   margin: 8px;
+}
+
+section .services .section p{
+   text-align: center;
+}
+
+about{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#aboutimg{
+   height: 600px;
+   width: 700px;
+   background-size: cover;
+   margin: 40px;
+   border-radius: 8px;
+}
+
+.about-content h1{
+   font-size: 49px;
+   padding: 40px;
+   border-bottom : 8px solid yellow;
+   width: 220px;
+   margin-left: 25px;
+   height: 110px;
+}
+
+.about-content p{
+   padding: 40px;
+   margin: 25px;
+   font-size: 21px;
+}
+
+#home{
+   color: yellow;
+}
+
+#home:hover{
+   color: white;
+}
+
+.yellow{
+   width: 100%;
+   height: 200px;
+   background-color: yellow;
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.yellow .state{
+   margin-left: 85px;
+   text-align: center;
+}
+
+.yellow .state .number{
+   font-size: 44px;
+   font-weight: 600;
+   margin-bottom: 21px;
+}
+
+.yellow .state .content{
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.projects{
+   margin-top: 20px;
+}
+
+.projects h1{
+   font-size: 49px;
+   border-bottom: 8px solid yellow;
+   width: 280px;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   left: 40%;
+}
+
+.projects .pro-container{
+   margin-top: 40px;
+   margin-left: 200px;
+}
+
+.projects .pro-container .row1
+{
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.projects .pro-container .row2 {
+   display: flex;
+   text-align: center;
+   align-items: center;
+}
+
+.projects .pro-container .row1 img{
+   height: 400px;
+   width: 500px;
+   margin: 10px;
+}
+
+.projects .pro-container .row2 img{
+   height: 400px;
+   width: 500px;
+   margin: 10px;
+}
+
+.projects .pro-container .row1 img:hover{
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.projects .pro-container .row2 img:hover{
+   cursor: pointer;
+   opacity: 0.5;
+}
+
+.client .client-name ul{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   list-style: none;
+   background-color: beige;
+   height: 150px;
+}
+
+.client .client-name ul li{
+   margin-left: 60px;
+   font-size: 25px;
+}
+
+.client #clienttt{
+   position: relative;
+   left: 40%;
+   font-size: 49px;
+   margin: 30px;
+   border-bottom: 7px solid yellow;
+   height: 80px;
+   width: 220px;
+}
+
+.contact h1{
+   position: relative;
+   left: 40%;
+   font-size: 49px;
+   margin: 30px;
+   border-bottom: 7px solid yellow;
+   height: 80px;
+   width: 220px;
+}
+
+.contact img{
+   margin-left: 30%;
+}
+
+.contact img:hover{
+   border: 2px solid black;
+   cursor: pointer;
+}
