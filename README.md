@@ -1,3 +1,2 @@
 # sphere-construct
-this is a complete front end website named sphere construction it is end to end code of my front end website.
-<img src="http://localhost/construction/sphere-construct/">
+This is a Complete Front End Website Named SPHERE CONSTRUCTION. It Is End-to-End Code of My Front End Website.
